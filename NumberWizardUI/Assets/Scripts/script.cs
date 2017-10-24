@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class script : MonoBehaviour {
+public class script : MonoBehaviour
+{
     //creates 3 number variables
     int min = 1;
     int max = 1000;
@@ -48,9 +49,9 @@ public class script : MonoBehaviour {
         NextGuess();
     }
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
         StartGame();
-	}
+    }
 }
